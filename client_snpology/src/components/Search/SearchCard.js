@@ -8,7 +8,12 @@ const cardStyle={
     height: '250px',
     marginLeft: '10px',
     marginBottom: '10px',
-    backgroundColor: '#eee'
+    backgroundColor: '#eee',
+    borderLeft: '0',
+    borderRight: '0',
+    borderTop: '0',
+    borderBottom: '2px solid black',
+    borderRadius: '0'
 }
 export class SearchCard extends React.Component {
   constructor(props) {
